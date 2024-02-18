@@ -1,0 +1,32 @@
+
+.main-bg {
+    background-image: url('./img/imagem.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--cor-branca);
+    
+    
+}
+.white-bg {
+    background: var(--cor-branca);
+    color: var(--cor-branca);
+    background-color: var(--cor-branca);
+    background-size: cover;
+    background-position: center center;
+    max-width: 1200px;
+    
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 65px;
+}

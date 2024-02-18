@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background-image: url('./img/imagem.svg');
+    color: var(--cor-primaria);
+    background-size: cover;
+    background-position: center center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'montserrat' sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 4.6rem;
+}
+h3 {
+    font-size: 4.3rem;
+}
+h4 {
+    font-size: 4rem;
+}
+h5 {
+    font-size: 3.7rem;
+}
+h6 {
+    font-size: 3.5rem;
+}
+a {
+ text-decoration: none;
+
+}
+
+th, td {
+    border: 0.1rem solid black;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+    color: var(--cor-primaria);
+}
